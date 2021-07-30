@@ -1,7 +1,7 @@
 library listenable_undo;
 
 import 'package:flutter/foundation.dart';
-import 'package:undo/undo.dart';
+import 'package:listenable_undo/src/undo_stack.dart';
 
 class ListenableStack extends ChangeStack with ChangeNotifier {
   @override
